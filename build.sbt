@@ -14,7 +14,9 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-stream" % "2.5.20",
   "com.typesafe.akka" %% "akka-actor" % "2.5.20",
   "com.typesafe.akka" %% "akka-slf4j" % "2.5.20",
-  "de.heikoseeberger" % "akka-http-circe_2.12" % "1.25.2"
+  "de.heikoseeberger" % "akka-http-circe_2.12" % "1.25.2",
+  "io.getquill" %% "quill-core" % "3.3.0",
+  "io.getquill" %% "quill-jdbc" % "3.3.0"
 )
 
 
